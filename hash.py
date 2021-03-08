@@ -13,9 +13,9 @@ print ("")
 
 flag = 0
 
-pass_hash = input("ENTER MD5 HASH > ")
+pass_hash = raw_input("ENTER MD5 HASH > ")
 
-wordlist = input("FILE NAME > ")
+wordlist = raw_input("FILE NAME > ")
 
 try:
     pass_file = open (wordlist, "r")
